@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NOW PLAYING — 현재 상영 영화</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- 헤더 -->
+  <header class="header">
+    <h1 class="logo">MOVIEFLIX</h1>
+    <nav class="nav">
+      <span class="nav-item active">현재 상영작</span>
+    </nav>
+  </header>
+
+  <!-- 히어로 배너 (첫 번째 영화) -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <h2 class="hero-title" id="hero-title"></h2>
+      <p class="hero-overview" id="hero-overview"></p>
+    </div>
+  </section>
+
+  <!-- 영화 목록 -->
+  <main class="container">
+    <h3 class="section-title">현재 상영 중인 영화</h3>
+    <div class="movie-grid" id="movie-grid">
+      <p class="loading">불러오는 중...</p>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
